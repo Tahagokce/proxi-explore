@@ -9,9 +9,9 @@ eureka:
   server:
     eviction-interval-timer-in-ms: 1000
   instance:
-    hostname: ${EUREKA_SERVER_HOST:localhost}
+    hostname: ${EUREKA_SERVER_HOST:192.168.1.114}
   client:
     registerWithEureka: false
     fetchRegistry: false
     serviceUrl:
-      defaultZone: ${EUREKA_SERVER_URL:http://localhost:8500/eureka/}
+      defaultZone: ${EUREKA_SERVER_URL:http://192.168.1.114:8500/eureka/}

@@ -1,0 +1,43 @@
+version: '3'
+networks:
+  places-network:
+    external: true
+
+services:
+  config-server:
+    container_name: config-server
+    build: ./config-server
+    ports:
+      - "8888:8888"
+    networks:
+      - places-network
+
+  eureka-server:
+    container_name: eureka-server
+    build: ./eureka-server
+    ports:
+      - "8500:8500"
+    networks:
+      - places-network
+
+  api-gateway-service:
+    container_name: api-gateway-service
+    build: ./api-gateway-service
+    ports:
+      - "8070:8070"
+    depends_on:
+      - config-server
+      - eureka-server
+    networks:
+      - places-network
+
+  places-service:
+    container_name: places-service
+    build: ./places-service
+    ports:
+      - "8502:8502"
+    depends_on:
+      - config-server
+      - eureka-server
+    networks:
+      - places-network
