@@ -7,5 +7,3 @@ ProxiExplore is a microservice project that I developed as a solution for the Co
 - [JDK 21](https://www.oracle.com/java/technologies/javase/jdk21-archive-downloads.html)
 - [Maven 3.8.1](https://maven.apache.org)
 
-
-

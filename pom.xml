@@ -43,6 +43,7 @@
         <module>config-server</module>
         <module>eureka-server</module>
         <module>api-gateway-service</module>
+        <module>places-service</module>
     </modules>
 
     <dependencies>
@@ -61,6 +62,13 @@
             <groupId>org.jeasy</groupId>
             <artifactId>easy-random-core</artifactId>
             <version>5.0.0</version>
+        </dependency>
+
+        <dependency>
+            <groupId>org.projectlombok</groupId>
+            <artifactId>lombok</artifactId>
+            <version>1.18.30</version>
+            <optional>true</optional>
         </dependency>
     </dependencies>
 

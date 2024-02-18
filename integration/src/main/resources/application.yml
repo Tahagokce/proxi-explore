@@ -1,8 +1,0 @@
-integration:
-  google:
-    baseUrl: https://places.googleapis.com/v1
-
-    api:
-      places:
-        path: /places
-        searchNearbyPath: :searchNearby

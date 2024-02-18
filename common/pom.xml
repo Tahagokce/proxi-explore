@@ -19,15 +19,15 @@
 
     <dependencies>
         <dependency>
-            <groupId>com.proxi-explore</groupId>
-            <artifactId>core</artifactId>
-            <version>${project.version}</version>
+            <groupId>org.json</groupId>
+            <artifactId>json</artifactId>
+            <version>20230618</version>
         </dependency>
 
         <dependency>
-            <groupId>org.projectlombok</groupId>
-            <artifactId>lombok</artifactId>
-            <optional>true</optional>
+            <groupId>com.proxi-explore</groupId>
+            <artifactId>core</artifactId>
+            <version>${project.version}</version>
         </dependency>
     </dependencies>
 
