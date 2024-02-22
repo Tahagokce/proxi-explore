@@ -2,7 +2,7 @@
 
 Couchbase is a project where I illustrated the Geospatial Query structure using spring reactive couchbase.
 Microservice architecture is used, you can find the Couchbase Geospatial Query in places-service.
-Medium article I wrote about Couchbase indexing See](https://medium.com/@taahagokce/couchbase-geopoint-spring-reactive-couchbase-0cc2b6e4be5d)
+Medium article I wrote about Couchbase indexing [See](https://medium.com/@taahagokce/couchbase-geopoint-spring-reactive-couchbase-0cc2b6e4be5d)
 
 
 ## Requirements
